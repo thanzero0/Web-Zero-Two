@@ -12,21 +12,7 @@ export default function Photos() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Image 
-            src="/zerotwo-photos/zero-two-1.jpeg" 
-            alt="Zero Two" 
-            width={400} 
-            height={400} 
-            className="rounded-lg shadow-lg w-full h-auto"
-          />
-          <Image 
-            src="/zerotwo-photos/Zero-two-2.jpeg" 
-            alt="Zero Two" 
-            width={400} 
-            height={400} 
-            className="rounded-lg shadow-lg w-full h-auto"
-          />
-          <Image 
-            src="/zerotwo-photos/zero-two-3.gif" 
+            src="https://i.pinimg.com/736x/8c/16/a7/8c16a7c5868bea305ef63694cc558636.jpg" 
             alt="Zero Two" 
             width={400} 
             height={400} 
@@ -34,37 +20,7 @@ export default function Photos() {
             unoptimized
           />
           <Image 
-            src="/zerotwo-photos/zero-two-4.gif" 
-            alt="Zero Two" 
-            width={400} 
-            height={400} 
-            className="rounded-lg shadow-lg w-full h-auto"
-            unoptimized
-          />
-          <Image 
-            src="/zerotwo-photos/zero-two-5.jpg" 
-            alt="Zero Two" 
-            width={400} 
-            height={400} 
-            className="rounded-lg shadow-lg w-full h-auto"
-          />
-          <Image 
-            src="/zerotwo-photos/zero-two-6.jpg" 
-            alt="Zero Two" 
-            width={400} 
-            height={400} 
-            className="rounded-lg shadow-lg w-full h-auto"
-          />
-          <Image 
-            src="/zerotwo-photos/zero-two-7.gif" 
-            alt="Zero Two" 
-            width={400} 
-            height={400} 
-            className="rounded-lg shadow-lg w-full h-auto"
-            unoptimized
-          />
-          <Image 
-            src="/zerotwo-photos/zero-two-8.gif" 
+            src="https://i.pinimg.com/736x/41/a4/3b/41a43ba1f51316414a6255277c224b6e.jpg" 
             alt="Zero Two" 
             width={400} 
             height={400} 
