@@ -43,22 +43,19 @@ export default function Photos() {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-zinc-900">
-      <div className="max-w-8xl mx-auto px-2 py-20">
-        <div className="columns-1 sm:columns-2 md:columns-4 lg:columns-6 gap-6 space-y-6">
-          {images.map((src, index) => (
-            <Image
-              key={index}
-              src={src}
-              alt="Zero Two"
-              width={400}
-              height={600}
-              className="rounded-lg shadow-lg w-full transition hover:scale-[1.02]"
-              unoptimized
-            />
-          ))}
+    <div className="photo-grid">
+      {images.map((src, index) => (
+        <div key={index} className="photo-item">
+          <Image
+            src={src}
+            alt="Zero Two"
+            width={400}
+            height={600}
+            className="rounded-lg shadow-lg w-full transition hover:scale-[1.02]"
+            unoptimized
+          />
         </div>
-      </div>
+      ))}
     </div>
   );
 }
