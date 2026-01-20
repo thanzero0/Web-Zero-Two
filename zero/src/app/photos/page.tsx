@@ -1,8 +1,13 @@
-import Link from 'next/link';
-import Image from 'next/image';
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
 
 export default function Photos() {
-  const images = [
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const images: string[] = [
+    
 "https://i.pinimg.com/736x/8c/16/a7/8c16a7c5868bea305ef63694cc558636.jpg",
 "https://i.pinimg.com/736x/41/a4/3b/41a43ba1f51316414a6255277c224b6e.jpg",
 "https://i.pinimg.com/736x/d8/7b/fe/d87bfe94b75bc66c6d90229e56f68de1.jpg",
@@ -42,22 +47,75 @@ export default function Photos() {
 "https://i.pinimg.com/736x/ba/10/9d/ba109d0dbbd89f40accb62b768b148a7.jpg"
   ];
 
+  const next = () => {
+    setActiveIndex((prev) => {
+      if (prev === null) return 0;
+      return (prev + 1) % images.length;
+    });
+  };
+
+  const prev = () => {
+    setActiveIndex((prev) => {
+      if (prev === null) return 0;
+      return prev === 0 ? images.length - 1 : prev - 1;
+    });
+  };
+
   return (
-    <div className="photo-grid">
-      {images.map((src, index) => (
-        <div key={index} className="photo-item">
+    <div>
+      <div className="photo-masonry p-2">
+        {images.map((src, index) => (
+          <div
+           key={index}
+           className="photo-item cursor-pointer"
+           onClick={() => setActiveIndex(index)}
+           >
+            <Image
+              src={src}
+              alt="gallery image"
+              width={400}
+              height={600}
+              className="rounded-lg shadow-lg w-full transition hover:scale-[1.02]"
+              unoptimized
+            />
+          </div>
+        ))}
+      </div>
+
+
+      {activeIndex !== null && (
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+          <button
+            className="absolute top-5 right-5 text-white text-3xl"
+            onClick={() => setActiveIndex(null)}
+          >
+            ✕
+          </button>
+
+          <button
+            className="absolute left-5 text-white text-4xl"
+            onClick={prev}
+          >
+            ‹
+          </button>
+
           <Image
-            src={src}
-            alt="Zero Two"
-            width={400}
-            height={600}
-            className="rounded-lg shadow-lg w-full"
-            placeholder="blur"
-            blurDataURL="/placeholder.jpg"
+            src={images[activeIndex]}
+            alt="preview"
+            width={800}
+            height={1200}
+            className="max-h-[90vh] w-auto rounded-lg"
             unoptimized
           />
+
+          <button
+            className="absolute right-5 text-white text-4xl"
+            onClick={next}
+          >
+            ›
+          </button>
         </div>
-      ))}
+      )}
     </div>
   );
 }
