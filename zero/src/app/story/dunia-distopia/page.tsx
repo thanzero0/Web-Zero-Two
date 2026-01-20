@@ -104,10 +104,9 @@ export default function DuniaDistopia() {
         </section>
       </div>
       <PageNav 
-  prev="/story"
-  next="/story/bukan-manusia-seutuhnya"
-/>
-
+          prev="/story"
+          next="/story/bukan-manusia-seutuhnya"
+       />
     </div>
   );
 }
