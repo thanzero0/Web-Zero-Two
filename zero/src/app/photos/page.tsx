@@ -41,9 +41,7 @@ export default function Photos() {
 
   return (
     <div className="min-h-screen bg-white text-zinc-900">
-      <div className="max-w-6xl mx-auto px-6 py-20">
-        <h1 className="text-4xl font-light mb-12">Cyberpunk Zero Two Gallery</h1>
-
+      <div className="max-w-8xl mx-auto px-2 py-20">
         <div className="columns-1 sm:columns-2 md:columns-4 lg:columns-6 gap-6 space-y-6">
           {images.map((src, index) => (
             <Image
