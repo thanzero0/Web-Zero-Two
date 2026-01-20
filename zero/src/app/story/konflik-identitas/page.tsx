@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
 
 export default function KonflikIdentitas() {
   return (
@@ -111,6 +112,10 @@ export default function KonflikIdentitas() {
         </section>
 
       </div>
+      <PageNav 
+          prev="/story/kepribadian-yang-kontras"
+          next="/story/klimaks-dan-transendensi"
+       />
     </div>
   );
 }

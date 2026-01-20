@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
 
 export default function BukanManusiaSeutuhnya() {
   return (
@@ -101,6 +102,10 @@ export default function BukanManusiaSeutuhnya() {
           </p>
         </section>
       </div>
+      <PageNav 
+          prev="/story/dunia-distopia"
+          next="/story/masa-kecil-yang-sepi"
+       />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
 
 export default function PartnerKiller() {
   return (
@@ -100,6 +101,10 @@ export default function PartnerKiller() {
           </p>
         </section>
       </div>
+      <PageNav 
+          prev="/story/masa-kecil-yang-sepi"
+          next="/story/pertemuan-kembali"
+       />
     </div>
   );
 }

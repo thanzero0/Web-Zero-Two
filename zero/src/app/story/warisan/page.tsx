@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
 
 export default function Warisan() {
   return (
@@ -119,6 +120,10 @@ export default function Warisan() {
         </section>
 
       </div>
+      <PageNav 
+          prev="/story/klimaks-dan-transendensi"
+          next="/story"
+       />
     </div>
   );
 }

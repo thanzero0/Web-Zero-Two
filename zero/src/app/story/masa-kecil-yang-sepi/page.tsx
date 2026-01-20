@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
 
 export default function MasaKecilYangSepi() {
   return (
@@ -137,6 +138,10 @@ export default function MasaKecilYangSepi() {
           </p>
         </section>
       </div>
+      <PageNav 
+          prev="/story/bukan-manusia-seutuhnya"
+          next="/story/partner-killer"
+       />
     </div>
   );
 }

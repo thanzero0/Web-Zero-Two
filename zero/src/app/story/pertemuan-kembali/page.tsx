@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
 
 export default function PertemuanKembali() {
   return (
@@ -94,6 +95,10 @@ export default function PertemuanKembali() {
           </p>
         </section>
       </div>
+      <PageNav 
+          prev="/story/partner-killer"
+          next="/story/kepribadian-yang-kontras"
+       />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import PageNav from '../../components/PageNav';
 export default function KepribadianYangKontras() {
   return (
     <div className="min-h-screen bg-white text-zinc-900">
@@ -7,6 +7,11 @@ export default function KepribadianYangKontras() {
         <Link href="/story" className="inline-block mb-8 text-zinc-600 hover:text-zinc-900 transition-colors">
           ← Kembali
         </Link>
+
+        <h1 className="text-4xl md:text-5xl font-light mb-8 text-zinc-900">
+          Kepribadian yang Kontras
+        </h1>
+
         <section className="prose prose-lg max-w-none leading-relaxed space-y-4">
           <h2 className="text-2xl font-semibold text-zinc-900">Bagian 1: Persona yang Dibangun dari Reruntuhan</h2>
           <p>
@@ -85,6 +90,10 @@ export default function KepribadianYangKontras() {
           </p>
         </section>
       </div>
+      <PageNav 
+          prev="/story/pertemuan-kembali"
+          next="/story/konflik-identitas"
+       />
     </div>
   );
 }

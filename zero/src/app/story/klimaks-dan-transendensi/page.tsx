@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
 
 export default function KlimaksDanTransendensi() {
   return (
@@ -106,6 +107,10 @@ export default function KlimaksDanTransendensi() {
         </section>
 
       </div>
+      <PageNav 
+          prev="/story/konflik-identitas"
+          next="/story/warisan"
+       />
     </div>
   );
 }
