@@ -44,7 +44,10 @@ export default function Photos() {
 "https://i.pinimg.com/736x/2f/16/46/2f1646e745801cdfe57047896ce684e0.jpg",
 "https://i.pinimg.com/736x/b7/4a/27/b74a2774f4336abfa101536ccb441c7e.jpg",
 "https://i.pinimg.com/736x/a9/b8/4c/a9b84cd5b10be74be31e0c12cc8cf068.jpg",
-"https://i.pinimg.com/736x/ba/10/9d/ba109d0dbbd89f40accb62b768b148a7.jpg"
+"https://i.pinimg.com/736x/ba/10/9d/ba109d0dbbd89f40accb62b768b148a7.jpg",
+"https://i.pinimg.com/736x/48/3b/d1/483bd1378cc54d46e0084cd6eff73c37.jpg",
+"https://i.pinimg.com/736x/16/15/ce/1615ce05f200c5e695372bad8052952f.jpg",
+"https://i.pinimg.com/736x/2d/92/6b/2d926be7ae781a7ec1053afd4739f2ee.jpg"
   ];
 
   const next = () => {
