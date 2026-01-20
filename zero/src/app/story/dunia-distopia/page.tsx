@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import PageNav from '../../components/PageNav';
+
 
 export default function DuniaDistopia() {
   return (
@@ -101,21 +103,11 @@ export default function DuniaDistopia() {
           </p>
         </section>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-12 pb-28">
-        <Link
-          href="/story"
-          className="px-6 py-3 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition"
-        >
-          ← Kembali
-        </Link>
+      <PageNav 
+  prev="/story"
+  next="/story/bukan-manusia-seutuhnya"
+/>
 
-        <Link
-          href="/story/bukan-manusia-seutuhnya"
-          className="px-6 py-3 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition"
-        >
-          Selanjutnya →
-        </Link>
-      </div>
     </div>
   );
 }
