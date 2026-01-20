@@ -51,7 +51,9 @@ export default function Photos() {
             alt="Zero Two"
             width={400}
             height={600}
-            className="rounded-lg shadow-lg w-full transition hover:scale-[1.02]"
+            className="rounded-lg shadow-lg w-full"
+            placeholder="blur"
+            blurDataURL="/placeholder.jpg"
             unoptimized
           />
         </div>
