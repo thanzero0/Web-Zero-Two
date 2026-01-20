@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Photos() {
   return (
-    <div className="columns-1 md:columns-2 gap-6 space-y-6">
+    <div className="columns-1 sm:columns-2 md:columns-4 lg:columns-6 gap-4 space-y-4">
       <Image 
         src="https://i.pinimg.com/736x/8c/16/a7/8c16a7c5868bea305ef63694cc558636.jpg" 
         alt="Zero Two" 
