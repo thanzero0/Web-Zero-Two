@@ -39,26 +39,6 @@ export default function Home() {
               Koleksi foto dan gambar Zero Two yang ikonik.
             </p>
           </Link>
-
-          <Link 
-            href="/video" 
-            className="group p-8 border-2 border-zinc-200 rounded-lg hover:border-zinc-900 transition-all hover:shadow-lg"
-          >
-            <h2 className="text-3xl font-light mb-4 text-zinc-900 group-hover:text-zinc-700">Video</h2>
-            <p className="text-zinc-600 leading-relaxed">
-              Video dan klip dari Darling in the Franxx.
-            </p>
-          </Link>
-
-          <Link 
-            href="/music" 
-            className="group p-8 border-2 border-zinc-200 rounded-lg hover:border-zinc-900 transition-all hover:shadow-lg"
-          >
-            <h2 className="text-3xl font-light mb-4 text-zinc-900 group-hover:text-zinc-700">Music</h2>
-            <p className="text-zinc-600 leading-relaxed">
-              Soundtrack dan musik dari seri Darling in the Franxx.
-            </p>
-          </Link>
         </div>
       </section>
 
