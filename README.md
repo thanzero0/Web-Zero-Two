@@ -52,3 +52,6 @@ Dibuat dengan passion oleh penggemar Zero Two.
 ### 💖 “Darling~”
 
 Terima kasih telah mengunjungi proyek ini!
+
+version 1.0
+
