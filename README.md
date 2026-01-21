@@ -9,8 +9,8 @@ Proyek ini dibuat sebagai situs sederhana namun stylish yang menampilkan informa
 
 * Menyediakan website fanpage bertema Zero Two
 * Menampilkan desain modern, responsif, dan menarik
-* Mengimplementasikan HTML, CSS, dan JavaScript secara kreatif
-* Memberikan pengalaman visual bertema anime-cyberpunk
+* Mengimplementasikan next.js secara kreatif
+* Memberikan pengalaman visual bertema anime
 
 ---
 
@@ -21,54 +21,6 @@ Proyek ini dibuat sebagai situs sederhana namun stylish yang menampilkan informa
 * **Gallery Section** – koleksi gambar Zero Two
 * **Character Info** – deskripsi dan fakta menarik
 * **Smooth Navigation** – navigasi cepat dan ringan
-* **Dark Mode Friendly** – tema gelap yang nyaman di mata
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-* HTML5
-* CSS3
-* JavaScript
-* Bootstrap (opsional)
-* Font Awesome
-* Google Fonts
-
----
-
-## 📂 Struktur Folder
-
-```
-zero-two-web/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
-```
-
----
-
-## 🚀 Cara Menjalankan
-
-1. Clone repository ini
-
-```
-git clone https://github.com/username/zero-two-web.git
-```
-
-2. Buka folder proyek
-
-```
-cd zero-two-web
-```
-
-3. Jalankan file `index.html` di browser
 
 ---
 
