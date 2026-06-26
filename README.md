@@ -1,19 +1,7 @@
 # Zero Two Landing Page 🌸
 
-A beautiful, striking landing page inspired by the character Zero Two. Designed with modern web design principles to create a dynamic and engaging visual experience.
+Zero Two Landing Page is a beautifully designed character-themed website inspired by Zero Two from Darling in the Franxx, built as a creative showcase of modern web design techniques. The page combines striking visuals, high-quality imagery, and smooth micro-animations to create an engaging visual experience that captures the elegance and energy of the character. The color palette leans into soft pinks, deep blacks, and warm accents that feel true to Zero Two's aesthetic, while the layout uses dynamic spacing and bold typography to keep every scroll position visually interesting.
 
-## 🌟 Features
+The project is powered by Next.js and React on the frontend, with Tailwind CSS handling all the styling and responsive design. This stack makes the development process fast and the output clean — every section is a reusable component, layouts adapt fluidly across screen sizes, and the build output is optimized for performance through Next.js's built-in image optimization and code splitting. Interactive elements like hover effects and smooth transitions are layered throughout the page, giving it a polished feel that goes beyond a typical static landing page.
 
-- Premium aesthetics and high-quality visuals
-- Responsive design for seamless viewing across devices
-- Smooth micro-animations and interactive elements
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
-## 🚀 Getting Started
-
-Launch `index.html` in your web browser to view the landing page.
+Zero Two Landing Page was created as a design-first project — the kind of work where aesthetics take priority and every pixel matters. It's not about building features or handling data, it's about proving that a web page can be a genuine piece of visual art when given enough attention to detail. The project is hosted on Vercel with a live demo available for anyone who wants to see it in action. It stands as a personal favorite in the portfolio because it represents the intersection of fandom, design passion, and technical skill all wrapped into a single, beautiful page.
